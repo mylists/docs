@@ -1,7 +1,7 @@
 ---
 id: quickstart
-title: Neon Quickstart Guide
-sidebar_label: Quickstart
+title: "Neon Quickstart: Connecting MTVL"
+sidebar_label: "Quickstart"
 ---
 
 # Neon Quickstart: Connecting MTVL

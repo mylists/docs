@@ -1,7 +1,7 @@
 ---
 id: import-export
-title: Data Portability: Import & Export
-sidebar_label: Import & Export
+title: "Data Portability: Import & Export"
+sidebar_label: "Import & Export"
 ---
 
 # Data Portability: Import & Export
