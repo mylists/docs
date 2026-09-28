@@ -1,2 +1,204 @@
 {
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "MTVL",
+  "theme": "mint",
+  "description": "Modular Media & Literature Tracking Platform, API, and Developer Guide",
+  "colors": {
+    "primary": "#6366f1",
+    "light": "#818cf8",
+    "dark": "#4f46e5"
+  },
+  "logo": {
+    "light": "/static/img/logo.svg",
+    "dark": "/static/img/logo.svg",
+    "href": "https://docs.mylists.cc"
+  },
+  "favicon": "/static/img/favicon.ico",
+  "appearance": {
+    "default": "dark"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "navbar": {
+    "links": [
+      {
+        "type": "github",
+        "href": "https://github.com/mylists/mtvl"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "GitHub",
+      "href": "https://github.com/mylists/mtvl"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/mylists/mtvl"
+    },
+    "links": [
+      {
+        "header": "Documentation",
+        "items": [
+          {
+            "label": "Introduction",
+            "href": "/docs/intro"
+          },
+          {
+            "label": "App User Guide",
+            "href": "/docs/app/overview"
+          },
+          {
+            "label": "API Reference",
+            "href": "/docs/api/overview"
+          }
+        ]
+      },
+      {
+        "header": "Developers",
+        "items": [
+          {
+            "label": "Architecture",
+            "href": "/docs/developer/architecture"
+          },
+          {
+            "label": "Adding Categories",
+            "href": "/docs/developer/adding-categories"
+          },
+          {
+            "label": "Neon Postgres Setup",
+            "href": "/docs/neon/overview"
+          }
+        ]
+      },
+      {
+        "header": "Ecosystem & Repositories",
+        "items": [
+          {
+            "label": "Backend (mtvl)",
+            "href": "https://github.com/mylists/mtvl"
+          },
+          {
+            "label": "Frontend (mtvl-frontend)",
+            "href": "https://github.com/mylists/mtvl-frontend"
+          },
+          {
+            "label": "Kubernetes Helm Charts",
+            "href": "https://github.com/mylists/kubernetes"
+          }
+        ]
+      }
+    ]
+  },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/docs/intro"
+    },
+    {
+      "source": "/intro",
+      "destination": "/docs/intro"
+    },
+    {
+      "source": "/app/:slug*",
+      "destination": "/docs/app/:slug*"
+    },
+    {
+      "source": "/api/:slug*",
+      "destination": "/docs/api/:slug*"
+    },
+    {
+      "source": "/developer/:slug*",
+      "destination": "/docs/developer/:slug*"
+    },
+    {
+      "source": "/neon/:slug*",
+      "destination": "/docs/neon/:slug*"
+    }
+  ],
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "icon": "book-open",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "docs/intro"
+            ]
+          },
+          {
+            "group": "MTVL App User Guide",
+            "pages": [
+              "docs/app/overview",
+              "docs/app/catalogs",
+              "docs/app/tracking-lists",
+              "docs/app/ratings-and-progress",
+              "docs/app/search-and-discovery",
+              "docs/app/import-export",
+              "docs/app/profile-and-tokens"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "icon": "terminal",
+        "groups": [
+          {
+            "group": "MTVL REST API Reference",
+            "pages": [
+              "docs/api/overview",
+              "docs/api/authentication",
+              "docs/api/categories",
+              "docs/api/movies",
+              "docs/api/tvshows",
+              "docs/api/books",
+              "docs/api/search",
+              "docs/api/stats",
+              "docs/api/import-export",
+              "docs/api/tokens",
+              "docs/api/health-probes"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Developer Guide",
+        "icon": "code",
+        "groups": [
+          {
+            "group": "Developer Guide",
+            "pages": [
+              "docs/developer/architecture",
+              "docs/developer/getting-started",
+              "docs/developer/adding-categories",
+              "docs/developer/pluggable-auth",
+              "docs/developer/frontend-development",
+              "docs/developer/testing"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Neon Setup",
+        "icon": "database",
+        "groups": [
+          {
+            "group": "Neon Postgres Setup",
+            "pages": [
+              "docs/neon/overview",
+              "docs/neon/quickstart",
+              "docs/neon/connection-pooling",
+              "docs/neon/migrations",
+              "docs/neon/branching-workflow",
+              "docs/neon/deployment"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
