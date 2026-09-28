@@ -1,0 +1,12 @@
+node_modules
+build
+.docusaurus
+.cache-loader
+.git
+.github
+*.log
+.DS_Store
+.env*
+README.md
+LICENSE
+Makefile

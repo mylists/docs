@@ -12,7 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "test": "node scripts/test-docs.mjs"
+    "test": "node scripts/test-docs.mjs && node scripts/test-infra.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "^3.7.0",
