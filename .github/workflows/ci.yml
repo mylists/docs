@@ -1,5 +1,8 @@
 name: CI & Multi-Platform Docker Build
 
+concurrency:
+  group: "${{ github.ref }}-ci"
+
 on:
   push:
     branches:
