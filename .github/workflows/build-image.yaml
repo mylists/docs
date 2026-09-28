@@ -1,7 +1,7 @@
 name: Docker Build
 
 concurrency:
-  group: "${{ github.ref }}-ci"
+  group: "${{ github.ref }}-build-image"
 
 on:
   push:
