@@ -2,6 +2,7 @@ name: Docker Build
 
 concurrency:
   group: "${{ github.ref }}-build-image"
+  cancel-in-progress: true
 
 on:
   push:
