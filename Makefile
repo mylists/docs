@@ -1,5 +1,5 @@
 # Variables
-IMAGE_NAME ?= ghcr.io/mylists/docs
+IMAGE_NAME ?= mylists/docs
 TAG ?= latest
 PLATFORMS ?= linux/amd64,linux/arm64
 BUILDER_NAME ?= docs-multiarch-builder
